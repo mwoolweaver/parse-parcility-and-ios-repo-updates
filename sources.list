@@ -45,7 +45,6 @@ deb https://repo.co.kr/ ./
 deb https://cydia.clezz.com/ ./
 deb https://cydia.r333d.com/ ./
 deb https://repo.kritanta.me/ ./
-deb https://yaypixxo.com/ ./
 deb https://affimbr.github.io/repo/ ./
 deb https://ahmadnagy.github.io/ ./
 deb https://amethyl.github.io/repo/ ./
