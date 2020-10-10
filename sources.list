@@ -26,7 +26,6 @@ deb https://repo.dynastic.co/ ./
 deb https://repo.packix.com/ ./
 deb https://apptapp.me/repo/ ./
 deb https://cydia.invoxiplaygames.uk ./
-deb https://apt.bingner.com/ ./
 deb https://idevicehacked.com/ ./
 deb https://repo.ayden.dev/ ./
 deb https://ib-soft.net/cydia/ ./
