@@ -26,6 +26,7 @@ deb https://repo.dynastic.co/ ./
 deb https://repo.packix.com/ ./
 deb https://apptapp.me/repo/ ./
 deb https://cydia.invoxiplaygames.uk ./
+deb https://apt.bingner.com/ ./
 deb https://idevicehacked.com/ ./
 deb https://repo.ayden.dev/ ./
 deb https://ib-soft.net/cydia/ ./
@@ -34,6 +35,7 @@ deb https://apt.lafond.dev/ ./
 deb http://repo.tetherme.net/ ./
 deb https://sparkdev.me/ ./
 deb https://repo.chariz.com/ ./
+deb http://apt.saurik.com/ ./
 deb http://repo.pixelomer.com/ ./
 deb https://ryleyangus.com/repo/ ./
 deb https://checkra.in/assets/mobilesubstrate/ ./
@@ -45,6 +47,7 @@ deb https://repo.co.kr/ ./
 deb https://cydia.clezz.com/ ./
 deb https://cydia.r333d.com/ ./
 deb https://repo.kritanta.me/ ./
+deb https://yaypixxo.com/ ./
 deb https://affimbr.github.io/repo/ ./
 deb https://ahmadnagy.github.io/ ./
 deb https://amethyl.github.io/repo/ ./
@@ -246,12 +249,12 @@ deb https://midcoreboot.github.io/ ./
 deb https://zhigang1992.github.io/cydia/ ./
 deb https://saj0vie.github.io/ ./
 deb https://s1ris.github.io/repo/ ./
-deb https://chickenmatt5.github.io/repo/ ./
 deb https://wynd07.com/r7/ ./
 deb https://wynd07.appspot.com/r7/ ./
 deb https://sarim.github.io/cydia/ ./
 deb https://repo.orangebananaspy.com/ ./
 deb https://ridn.github.io/repo/ ./
+deb https://repo.chimera.sh/ ./
 deb https://manolzrepo.github.io/ios/ ./
 deb https://mologie.github.io/repo/ ./
 deb https://bart172.github.io/repo/ ./
@@ -429,7 +432,6 @@ deb https://h6nry.github.io/repo/ ./
 deb https://ioshacker.github.io/ ./
 deb https://pillowbear.github.io/ ./
 deb https://lint.github.io/repo/ ./
-deb https://iamjamieq.github.io/repo/ ./
 deb https://taskinoz.github.io/repo/ ./
 deb https://hikohub.github.io/ ./
 deb https://truexpixels.github.io/ ./
@@ -614,6 +616,7 @@ deb https://repo.squidkingdom.com/ ./
 deb http://nix.howett.net/theos/ ./
 deb https://wolftonix.com/cydia/ ./
 deb https://supporter.cpdigitaldarkroom.com/repo/ ./
+deb https://apt.procurs.us/ ./
 deb https://repo.tr1fecta.co/ ./
 deb https://repo.quiprr.dev/ ./
 deb https://repo.burrit0z.dev/ ./
