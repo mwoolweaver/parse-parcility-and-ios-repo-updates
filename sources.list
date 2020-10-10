@@ -7,7 +7,6 @@ deb https://poomsmart.github.io/repo/ ./
 deb https://evynw.github.io/ ./
 deb https://revulate.dev ./
 deb https://repo.supercharge.app/ ./
-deb https://antiquebeta.github.io/ ./
 deb https://exqusic.github.io/ ./
 deb https://getzbra.com/repo/ ./
 deb https://repo.cpdigitaldarkroom.com/ ./
@@ -28,7 +27,6 @@ deb https://idevicehacked.com/ ./
 deb https://repo.ayden.dev/ ./
 deb https://ib-soft.net/cydia/ ./
 deb https://cydia.akemi.ai/ ./
-deb https://apt.lafond.dev/ ./
 deb http://repo.tetherme.net/ ./
 deb https://sparkdev.me/ ./
 deb http://repo.pixelomer.com/ ./
@@ -37,7 +35,6 @@ deb https://checkra.in/assets/mobilesubstrate/ ./
 deb https://repo.twickd.com ./
 deb https://www.yourepo.com/ ./
 deb https://repotest.shuga.co ./
-deb http://apt.thebigboss.org ./
 deb https://repo.co.kr/ ./
 deb https://cydia.clezz.com/ ./
 deb https://cydia.r333d.com/ ./
@@ -47,7 +44,6 @@ deb https://ahmadnagy.github.io/ ./
 deb https://amethyl.github.io/repo/ ./
 deb https://apt.alfhaily.me/ ./
 deb https://apt.iarrays.com/ ./
-deb https://apt.s1ris.org/ ./
 deb https://apt.securarepo.io/ ./
 deb https://apt.steverolfe.com/ ./
 deb https://arcetera.github.io/ ./
@@ -189,7 +185,6 @@ deb https://cydia.rob311.com/repo/ ./
 deb https://typ0s2d10.appspot.com/repo/ ./
 deb https://mcapollo.github.io/Public/ ./
 deb http://apt.golddavid.com/ ./
-deb http://rcrepo.com/ ./
 deb http://squ1dd13.tk/repo/ ./
 deb http://tateu.net/repo/ ./
 deb https://cydia.joedj.net/ ./
@@ -397,7 +392,6 @@ deb https://antiquedev.github.io/ ./
 deb https://nyansatan.github.io/apt/ ./
 deb https://iApeiron.github.io/ ./
 deb https://icrazeios.github.io/A12-Forks/Repo/ ./
-deb https://arandomdev.github.io/cydia/ ./
 deb https://kotyanlife.info/cydiarepo/ ./
 deb https://chrisosx.github.io/ ./
 deb https://sutuplus.github.io/repo/ ./
@@ -557,7 +551,6 @@ deb https://superuser.ml/ ./
 deb https://itweakos.github.io/itweakosrepo/ ./
 deb https://shadowstonk1.github.io/repo/ ./
 deb https://dylanduff.com/repo/ ./
-deb https://aesthyrica.com/repo/ ./
 deb https://froztz.gitlab.io/cydia/ ./
 deb https://hamzaipa.github.io/sh/ ./
 deb https://www.5781000.co/dcrm/ ./
