@@ -22,8 +22,6 @@ deb https://ib-soft.net/cydia/beta/ ./
 deb http://gmoran.me/repo/ ./
 deb https://repo.conorthedev.me/ ./
 deb http://repo.nullpixel.uk/ ./
-deb https://repo.dynastic.co/ ./
-deb https://repo.packix.com/ ./
 deb https://apptapp.me/repo/ ./
 deb https://cydia.invoxiplaygames.uk ./
 deb https://idevicehacked.com/ ./
@@ -33,7 +31,6 @@ deb https://cydia.akemi.ai/ ./
 deb https://apt.lafond.dev/ ./
 deb http://repo.tetherme.net/ ./
 deb https://sparkdev.me/ ./
-deb https://repo.chariz.com/ ./
 deb http://repo.pixelomer.com/ ./
 deb https://ryleyangus.com/repo/ ./
 deb https://checkra.in/assets/mobilesubstrate/ ./
@@ -589,7 +586,6 @@ deb https://repo.anthopak.dev/ ./
 deb https://www.stevesarmiento.com/repo/ ./
 deb https://shepgobarepo.github.io/ ./
 deb https://redentic.dev/ ./
-deb https://repounclutter.coolstar.org ./
 deb http://limneos.net/repo/ ./
 deb https://repo.nepeta.me ./
 deb https://beta.apptapp.me/ ./
