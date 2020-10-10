@@ -26,7 +26,6 @@ deb https://repo.dynastic.co/ ./
 deb https://repo.packix.com/ ./
 deb https://apptapp.me/repo/ ./
 deb https://cydia.invoxiplaygames.uk ./
-deb https://apt.bingner.com/ ./
 deb https://idevicehacked.com/ ./
 deb https://repo.ayden.dev/ ./
 deb https://ib-soft.net/cydia/ ./
@@ -35,7 +34,6 @@ deb https://apt.lafond.dev/ ./
 deb http://repo.tetherme.net/ ./
 deb https://sparkdev.me/ ./
 deb https://repo.chariz.com/ ./
-deb http://apt.saurik.com/ ./
 deb http://repo.pixelomer.com/ ./
 deb https://ryleyangus.com/repo/ ./
 deb https://checkra.in/assets/mobilesubstrate/ ./
@@ -618,7 +616,6 @@ deb https://repo.squidkingdom.com/ ./
 deb http://nix.howett.net/theos/ ./
 deb https://wolftonix.com/cydia/ ./
 deb https://supporter.cpdigitaldarkroom.com/repo/ ./
-deb https://apt.procurs.us/ ./
 deb https://repo.tr1fecta.co/ ./
 deb https://repo.quiprr.dev/ ./
 deb https://repo.burrit0z.dev/ ./
