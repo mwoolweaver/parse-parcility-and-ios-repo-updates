@@ -1,7 +1,6 @@
 deb https://repo.carsuki.moe/ ./
 deb https://mtac.app/beta/ ./
 deb https://apt.azozzalfiras.co/ ./
-deb https://pheuxdev.github.io/repo ./
 deb https://skitty.xyz/beta ./
 deb https://burrito.software/sarah/repojb ./
 deb https://repo.p0358.net ./
