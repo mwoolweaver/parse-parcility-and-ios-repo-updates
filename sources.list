@@ -26,7 +26,6 @@ deb https://gilesgc.github.io/repo/ ./
 deb https://beta.apptapp.me/ ./
 deb https://repo.nepeta.me ./
 deb http://limneos.net/repo/ ./
-deb https://repounclutter.coolstar.org ./
 deb https://redentic.dev/ ./
 deb https://shepgobarepo.github.io/ ./
 deb https://www.stevesarmiento.com/repo/ ./
@@ -224,7 +223,6 @@ deb https://ndoizo.ca/ ./
 deb https://n-i-n-0.github.io/repo/ ./
 deb https://apt.othman.tech/ ./
 deb https://halo-michael.github.io/repo/ ./
-deb https://joker2gun.github.io/ ./
 deb https://apt.25mao.com/ ./
 deb https://roymakestuff.github.io/ ./
 deb https://jordao-net.com/repo/ ./
@@ -463,7 +461,6 @@ deb https://worksbybbs.github.io/ ./
 deb https://synnygr.dev/repo/ ./
 deb https://www.icaughtuapp.com/repo/ ./
 deb https://nicho1asdev.github.io/repo/ ./
-deb https://captinc.me/ ./
 deb https://level3tjg.xyz/repo/ ./
 deb https://smacpats.github.io/repo/ ./
 deb https://trentjk.github.io/ ./
@@ -475,7 +472,6 @@ deb https://kingpuffdaddi.github.io/ ./
 deb https://skylarmccauley.xyz/hacked-repo/ ./
 deb https://beta.unlimapps.com/ ./
 deb https://apt.arx8x.net/ ./
-deb https://janedut.github.io/ ./
 deb https://jakeashacks.net/cydia/ ./
 deb https://ios.jjolano.me/ ./
 deb https://dgh0st.github.io/ ./
@@ -569,7 +565,6 @@ deb https://repo.twickd.com ./
 deb https://checkra.in/assets/mobilesubstrate/ ./
 deb https://ryleyangus.com/repo/ ./
 deb http://repo.pixelomer.com/ ./
-deb https://repo.chariz.com/ ./
 deb http://repo.tetherme.net/ ./
 deb https://apt.lafond.dev/ ./
 deb https://cydia.akemi.ai/ ./
@@ -578,8 +573,6 @@ deb https://repo.ayden.dev/ ./
 deb https://idevicehacked.com/ ./
 deb https://cydia.invoxiplaygames.uk ./
 deb https://apptapp.me/repo/ ./
-deb https://repo.packix.com/ ./
-deb https://repo.dynastic.co/ ./
 deb http://repo.nullpixel.uk/ ./
 deb https://repo.conorthedev.me/ ./
 deb http://gmoran.me/repo/ ./
