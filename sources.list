@@ -132,7 +132,6 @@ deb https://candoizo.gitlab.io/repo/ ./
 deb https://cctgapp.github.io/repo/ ./
 deb https://codesquad-beta.github.io/cydia/ ./
 deb https://jannikcrack.github.io/ ./
-deb https://cydiamy.github.io/1.0.4/ ./
 deb https://rotanakpiseth.github.io/ ./
 deb https://mrvaygaflex.github.io/ ./
 deb https://exodia9610.github.io/repo/ ./
@@ -144,7 +143,6 @@ deb https://dezqo.github.io/iosrepo/ ./
 deb https://ichitaso.com/apt/ ./
 deb https://n0mar.github.io/ ./
 deb https://rrnmrnm.github.io/ ./
-deb https://booleanmagic.com/repo/ ./
 deb https://wz1129.github.io/cydia/ ./
 deb https://tweakality.github.io/repo/ ./
 deb https://repo90.github.io/ios/ ./
@@ -184,7 +182,6 @@ deb https://agentepsilon.github.io/repo/ ./
 deb https://caseycz.github.io/repo/ ./
 deb https://hikohub.github.io/ ./
 deb https://taskinoz.github.io/repo/ ./
-deb https://iamjamieq.github.io/repo/ ./
 deb https://lint.github.io/repo/ ./
 deb https://pillowbear.github.io/ ./
 deb https://ioshacker.github.io/ ./
@@ -358,13 +355,11 @@ deb https://remyla31.github.io/ ./
 deb https://bart172.github.io/repo/ ./
 deb https://mologie.github.io/repo/ ./
 deb https://manolzrepo.github.io/ios/ ./
-deb https://repo.chimera.sh/ ./
 deb https://ridn.github.io/repo/ ./
 deb https://repo.orangebananaspy.com/ ./
 deb https://sarim.github.io/cydia/ ./
 deb https://wynd07.appspot.com/r7/ ./
 deb https://wynd07.com/r7/ ./
-deb https://chickenmatt5.github.io/repo/ ./
 deb https://s1ris.github.io/repo/ ./
 deb https://saj0vie.github.io/ ./
 deb https://zhigang1992.github.io/cydia/ ./
@@ -561,7 +556,6 @@ deb https://repo.co.kr/ ./
 deb https://repotest.shuga.co ./
 deb https://www.yourepo.com/ ./
 deb https://repo.twickd.com ./
-deb https://checkra.in/assets/mobilesubstrate/ ./
 deb https://ryleyangus.com/repo/ ./
 deb http://repo.pixelomer.com/ ./
 deb http://repo.tetherme.net/ ./
