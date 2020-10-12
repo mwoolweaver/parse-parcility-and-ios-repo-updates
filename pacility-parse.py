@@ -8,7 +8,9 @@ def contains_word(s, w):
 
 word = b'Origin:'
 
-defaultRepos = ["https://apt.bingner.com", "http://apt.saurik.com", "http://apt.thebigboss.org", "https://apt.procurs.us", "https://repo.packix.com", "https://repo.dynastic.co", "https://repounclutter.coolstar.org", "https://repo.theodyssey.dev", "https://repo.chariz.com", "https://checkra.in/assets/mobilesubstrate"]
+defaultRepos = ["https://apt.bingner.com", "http://apt.saurik.com", "http://apt.thebigboss.org", "https://apt.procurs.us", "https://repo.packix.com", "https://repo.dynastic.co", "https://repounclutter.coolstar.org", "https://repo.theodyssey.dev", "https://repo.chariz.com", "https://checkra.in/assets/mobilesubstrate", "https://repo.chimera.sh"]
+
+reposWithIssues = ["https://booleanmagic.com/repo", "https://cydiamy.github.io/1.0.4", "https://chickenmatt5.github.io/repo", "https://iamjamieq.github.io/repo", "http://rcrepo.com", "https://bandarhl.github.io"]
 
 numDefault = len(defaultRepos)
 getParcility = get("https://api.parcility.co/db/repos/small")
@@ -37,10 +39,14 @@ for repo in parcility:
 res = []
 notRES = []
 defaultIn = 0
+numWithIssues = 0
 for i in beforeCheck: 
     if i not in res:
         if i not in defaultRepos:
-            res.append(i)
+            if i not in reposWithIssues:
+                res.append(i)
+            else:
+                numWithIssues += 1
         else:
             defaultIn += 1
     else:
@@ -54,7 +60,7 @@ while maxRepo >= 0:
 
         checkPackurl = res[maxRepo] + "/Release"
         try:
-            checkPack = get(checkPackurl, headers={"User-Agent":"Debian APT-HTTP/1.3 (2.1.10-3)"}, timeout=2)
+            checkPack = get(checkPackurl, headers={"User-Agent":"Debian APT-HTTP/1.3 (2.1.10)"}, timeout=2)
 
         except requests.exceptions.ReadTimeout as er:
             print ("\n")
@@ -129,6 +135,9 @@ print ("\n")
 print ("Failed to find " + str(len(noFind)))
 #for notFound in noFind:
 #    print (notFound)
+
+print ("\n")
+print ("Found " + str(numWithIssues) + " repos that cause issues.")
 
 print("\n")
 print ("Default repos found but will not add to list")
