@@ -219,7 +219,6 @@ deb https://ididdy.github.io/ ./
 deb https://cydia.easonwu.org/ ./
 deb https://xxthepersonx.github.io/repo/ ./
 deb https://diatr.us/nito/ ./
-deb https://repo.sciency.us/ ./
 deb https://repo.unlimapps.com/ ./
 deb https://p3t3rpan.github.io/ ./
 deb https://chloeeisoaky.github.io/ ./
