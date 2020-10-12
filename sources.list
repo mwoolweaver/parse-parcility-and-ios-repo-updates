@@ -102,7 +102,6 @@ deb https://yusufozgul.github.io/ ./
 deb https://ashenyx.github.io/cydia/projectblue/ ./
 deb https://D7my-dev.github.io/repo/ ./
 deb https://matranc.github.io/repo/ ./
-deb https://bandarhl.github.io/ ./
 deb https://skebby11.github.io/cydia-repo/ ./
 deb https://machport.github.io/apt/ ./
 deb https://bluecordedranger.github.io/repo/ ./
@@ -129,7 +128,6 @@ deb https://candoizo.gitlab.io/repo/ ./
 deb https://cctgapp.github.io/repo/ ./
 deb https://codesquad-beta.github.io/cydia/ ./
 deb https://jannikcrack.github.io/ ./
-deb https://cydiamy.github.io/1.0.4/ ./
 deb https://rotanakpiseth.github.io/ ./
 deb https://mrvaygaflex.github.io/ ./
 deb https://exodia9610.github.io/repo/ ./
@@ -141,7 +139,6 @@ deb https://dezqo.github.io/iosrepo/ ./
 deb https://ichitaso.com/apt/ ./
 deb https://n0mar.github.io/ ./
 deb https://rrnmrnm.github.io/ ./
-deb https://rpetri.ch/repo/ ./
 deb https://wz1129.github.io/cydia/ ./
 deb https://tweakality.github.io/repo/ ./
 deb https://repo90.github.io/ios/ ./
@@ -179,7 +176,6 @@ deb https://agentepsilon.github.io/repo/ ./
 deb https://caseycz.github.io/repo/ ./
 deb https://hikohub.github.io/ ./
 deb https://taskinoz.github.io/repo/ ./
-deb https://iamjamieq.github.io/repo/ ./
 deb https://lint.github.io/repo/ ./
 deb https://pillowbear.github.io/ ./
 deb https://ioshacker.github.io/ ./
@@ -256,6 +252,7 @@ deb https://codeverine.gitlab.io/ ./
 deb https://speedmx.github.io/ ./
 deb https://cydia.jukben.cz/ ./
 deb https://foggy-j.github.io/repo/ ./
+deb https://iwazowski.com/repo/ ./
 deb https://sk8rdev.github.io/ ./
 deb https://clawish.github.io/repo/ ./
 deb https://jarxy.github.io/ ./
@@ -276,7 +273,6 @@ deb https://alexpng.github.io/ ./
 deb https://zlxdike.github.io/repo/ ./
 deb https://menardiosdesigns.github.io/repo/ ./
 deb https://tonecat.github.io/ ./
-deb https://xninja.xyz/apt/ ./
 deb https://theonlygermanguy.github.io/repo/ ./
 deb https://klutchkyle.com/ ./
 deb https://samplasion.github.io/cydia/ ./
@@ -340,11 +336,9 @@ deb https://remyla31.github.io/ ./
 deb https://bart172.github.io/repo/ ./
 deb https://mologie.github.io/repo/ ./
 deb https://manolzrepo.github.io/ios/ ./
-deb https://repo.chimera.sh/ ./
 deb https://repo.orangebananaspy.com/ ./
 deb https://sarim.github.io/cydia/ ./
 deb https://wynd07.appspot.com/r7/ ./
-deb https://chickenmatt5.github.io/repo/ ./
 deb https://s1ris.github.io/repo/ ./
 deb https://saj0vie.github.io/ ./
 deb https://zhigang1992.github.io/cydia/ ./
@@ -393,7 +387,6 @@ deb https://decimation.github.io/ ./
 deb https://brunonfl.github.io/ ./
 deb https://cydia.joedj.net/ ./
 deb http://tateu.net/repo/ ./
-deb http://rcrepo.com/ ./
 deb http://apt.golddavid.com/ ./
 deb https://mcapollo.github.io/Public/ ./
 deb https://typ0s2d10.appspot.com/repo/ ./
@@ -447,6 +440,7 @@ deb https://jb365.github.io/ ./
 deb https://itsjafer.com/repo/ ./
 deb https://henrikssonbrothers.com/cydia/repo/ ./
 deb https://kingpuffdaddi.github.io/ ./
+deb https://apt.arx8x.net/ ./
 deb https://janedut.github.io/ ./
 deb https://jakeashacks.net/cydia/ ./
 deb https://ios.jjolano.me/ ./
@@ -547,6 +541,7 @@ deb https://ib-soft.net/cydia/beta/ ./
 deb http://junesiphone.com/supersecret/ ./
 deb http://xenpublic.incendo.ws/ ./
 deb https://julioverne.github.io/ ./
+deb https://rpetri.ch/repo/ ./
 deb https://artikushg.github.io/ ./
 deb https://repo.cpdigitaldarkroom.com/ ./
 deb https://getzbra.com/repo/ ./
