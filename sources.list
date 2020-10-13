@@ -21,6 +21,7 @@ deb http://repo.pixelomer.com/ ./
 deb http://repo.qwertyuiop1379.com/ ./
 deb http://repo.rio-doro.eu/ ./
 deb http://repo.sparkes.zone/ ./
+deb http://repo.spiritoflogic.com/ ./
 deb http://repo.tetherme.net/ ./
 deb http://tateu.net/repo/ ./
 deb http://xenpublic.incendo.ws/ ./
@@ -396,7 +397,6 @@ deb https://repo.dongo.pro/ ./
 deb https://repo.dozenzb.com/ ./
 deb https://repo.dreamnet.at/ ./
 deb https://repo.eskimo.dev/ ./
-deb https://repo.evaneliasyoung.com/ ./
 deb https://repo.festival.tf/ ./
 deb https://repo.geopjr.xyz/ ./
 deb https://repo.hudsongreen.com/ ./
@@ -454,7 +454,6 @@ deb https://rpetri.ch/repo/ ./
 deb https://rrnmrnm.github.io/ ./
 deb https://rudikelly.github.io/repo/ ./
 deb https://ruler225.github.io/ ./
-deb https://ryleyangus.com/repo/ ./
 deb https://s0mecoder.github.io/repo/ ./
 deb https://s1ris.github.io/repo/ ./
 deb https://saj0vie.github.io/ ./
