@@ -131,7 +131,6 @@ deb https://codeverine.gitlab.io/ ./
 deb https://cokepokes.github.io/ ./
 deb https://convergance.incendo.ws/ ./
 deb https://coolbooter.com/ ./
-deb https://coolstar.org/publicrepo/ ./
 deb https://creaturecoding.com/repo/ ./
 deb https://creaturesurvive.github.io/ ./
 deb https://cryptiiiic.com/repo/ ./
