@@ -8,50 +8,49 @@ def contains_word(s, w):
 
 word = b'Origin:'
 
-defaultRepos = ["https://apt.bingner.com", "http://apt.saurik.com", "http://apt.thebigboss.org", "https://apt.procurs.us", "https://repo.packix.com", "https://repo.dynastic.co", "https://repounclutter.coolstar.org", "https://repo.theodyssey.dev", "https://repo.chariz.com", "https://checkra.in/assets/mobilesubstrate", "https://repo.chimera.sh"]
+defaultRepos = ["http://apt.modmyi.com", "http://apt.thebigboss.org/repofiles/cydia", "https://apt.bingner.com", "http://apt.saurik.com", "http://apt.thebigboss.org", "https://apt.procurs.us", "https://repo.packix.com", "https://repo.dynastic.co", "https://repounclutter.coolstar.org", "https://repo.theodyssey.dev", "https://repo.chariz.com", "https://checkra.in/assets/mobilesubstrate", "https://repo.chimera.sh"]
 
-reposWithIssues = ["https://booleanmagic.com/repo", "https://cydiamy.github.io/1.0.4", "https://chickenmatt5.github.io/repo", "https://iamjamieq.github.io/repo", "http://rcrepo.com", "https://bandarhl.github.io"]
+reposWithIssues = ["https://repo.sciency.us", "https://wizage.github.io/repo/", "https://iluwqaa.github.io/", "https://booleanmagic.com/repo", "https://cydiamy.github.io/1.0.4", "https://chickenmatt5.github.io/repo", "https://iamjamieq.github.io/repo", "http://rcrepo.com", "https://bandarhl.github.io", "https://xninja.xyz/apt", "https://apt.xninja.xyz"]
 
-numDefault = len(defaultRepos)
+# Where we source our repo list from
 getParcility = get("https://api.parcility.co/db/repos/small")
+getIRU = get("https://api.ios-repo-updates.com/1.0/popular-repos/")
 
 jsonParcility = getParcility.json()
+jsonIRU = getIRU.json()
 
 parcility = jsonParcility["data"]
+IRU = jsonIRU
 
-numRepos = len(jsonParcility["data"])
+beforeCheck = []
 
-# repoURLs = [None] * numRepos
-repoList = [None] * numRepos
-repoListURLs = [None] * numRepos
+for repoIRU in IRU:
+    bc1 = repoIRU["url"].rstrip('/')
+    beforeCheck.append(bc1.lstrip())
 
-beforeCheck = [None] * numRepos
-
-numAdded = 0
-
-# print (parcility)
-x = 0
-for repo in parcility:
-    bc = repo["url"].rstrip('/')
-    beforeCheck[x] = bc.lstrip()
-    x += 1
+for repoParcility in parcility:
+    bc2 = repoParcility["url"].rstrip('/')
+    beforeCheck.append(bc2.lstrip())
 
 res = []
 notRES = []
-defaultIn = 0
-numWithIssues = 0
-for i in beforeCheck: 
+defaultIn = []
+numWithIssues = []
+
+beforeCheck.sort()
+for i in beforeCheck:
     if i not in res:
         if i not in defaultRepos:
             if i not in reposWithIssues:
                 res.append(i)
             else:
-                numWithIssues += 1
+                numWithIssues.append(i)
         else:
-            defaultIn += 1
+            defaultIn.append(i)
     else:
         notRES.append(i)
 
+res.sort(reverse=True)
 maxRepo = len(res) - 1
 noFind = []
 found = []
@@ -62,15 +61,15 @@ while maxRepo >= 0:
         try:
             checkPack = get(checkPackurl, headers={"User-Agent":"Debian APT-HTTP/1.3 (2.1.10)"}, timeout=2)
 
-        except requests.exceptions.ReadTimeout as er:
+        except requests.exceptions.ReadTimeout as err:
             print ("\n")
             print ("Not added.")
             print (maxRepo, res[maxRepo])
-            print (er)
+            print (err)
             print ("\n")
-            noFind.append(res[maxRepo])
+            noFind.append([res[maxRepo], err])
             maxRepo -= 1
-            continue # start the while loop over and try again.
+            continue # start the while loop over and try the next repo.
 
         except requests.exceptions.ConnectionError as err:
             print ("\n")
@@ -78,16 +77,13 @@ while maxRepo >= 0:
             print (maxRepo, res[maxRepo])
             print (err)
             print ("\n")
-            noFind.append(res[maxRepo])
+            noFind.append([res[maxRepo], err])
             maxRepo -= 1
-            continue # start the while loop over and try again.
+            continue # start the while loop over and try the next repo.
 
         if checkPack.status_code == 200:
-            repoListURLs[maxRepo] = res[maxRepo]
-            repoList[maxRepo] = "deb " + repoListURLs[maxRepo] + " ./"
             print (maxRepo, res[maxRepo], checkPack.status_code)
             found.append([res[maxRepo], checkPack.content])
-            #releaseFiles.append(checkPack.content)
             maxRepo -= 1
 
         else:
@@ -95,20 +91,19 @@ while maxRepo >= 0:
             print ("Not added.")
             print (maxRepo, res[maxRepo], checkPack.status_code)
             print ("\n")
-            noFind.append(res[maxRepo])
+            noFind.append([res[maxRepo], checkPack.status_code])
             maxRepo -= 1
 
 checkDup = []
 notDup = []
 isDup = []
 notValid = []
-z = 0
+
 for file in found:
     if file[1] not in checkDup:
         if word in file[1]:
             checkDup.append(file[1])
             notDup.append(file[0])
-            z += 1
         else:
             notValid.append(file)
     else:
@@ -117,40 +112,46 @@ for file in found:
 print ("\n")
 print ("\n")
 print ("\n")
-print ("Found " + str(len(notRES)) + " duplicate URLs")
+print ("Found " + str(len(notRES)) + " duplicate URLs.")
 #for url in notRES:
     # print (url)
 
 print ("\n")
-print ("found " + str(len(isDup)) + " duplicate release files")
+print ("Found " + str(len(isDup)) + " duplicate release files.")
 #for dup in isDup:
    # print (dup[0])
 
 print ("\n")
-print ("found " + str(len(notValid)) + " with not valid release files")
+print ("Found " + str(len(notValid)) + " with invalid release files.")
 #for invalid in notValid:
 #    print (invalid[0])
 
 print ("\n")
-print ("Failed to find " + str(len(noFind)))
+print ("Failed to find " + str(len(noFind)) + " repos.")
 #for notFound in noFind:
 #    print (notFound)
 
 print ("\n")
-print ("Found " + str(numWithIssues) + " repos that cause issues.")
+print ("Found " + str(len(numWithIssues)) + " repos that could cause issues.")
+#for withIssues in numWithIssues:
+#    print (withIssues)
 
 print("\n")
-print ("Default repos found but will not add to list")
-print (defaultIn)
+print ("Found " + str(len(defaultIn)) + " default repos found but will not add to list")
+#for default in defaultIn:
+#    print (default)
 
 print ("\n")
 print ("Found " + str(len(notDup)) + " valid repos to be added to list.")
+#for ND in notDup:
+#    print (ND)
 
 print ("\n")
-print ("Number of repo on Parcility.co")
-print (numRepos)
+print ("The combined number of repos on Parcility.co & ios-repo-updates.com")
+print (len(beforeCheck))
 
 
+notDup.sort()
 with open('just-urls-sources.list', 'w') as f:
     for url in notDup:
         if url != None:
