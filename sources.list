@@ -3,28 +3,17 @@ deb http://apt.dummysprite.com/ ./
 deb http://apt.golddavid.com/ ./
 deb http://apt.mootjeuh.com/ ./
 deb http://beta.rio-doro.eu/ ./
-deb http://cydia.dtathemes.com/repo/ ./
 deb http://deb.danstaface.net/ ./
 deb http://ftp.sident.net/cydia-beta/ ./
-deb http://gmoran.me/repo/ ./
 deb http://hitoriblog.com/apt/ ./
-deb http://junesiphone.com/supersecret/ ./
 deb http://laughingquoll.net/repo/ ./
 deb http://limneos.net/repo/ ./
 deb http://m156nrkvv.g2.xrea.com/repo/ ./
-deb http://nitosoft.com/beta2/ ./
-deb http://nitosoft.com/repo/ ./
 deb http://repo.alexzielenski.com/ ./
-deb http://repo.nesolabs.de/ ./
-deb http://repo.nullpixel.uk/ ./
-deb http://repo.pixelomer.com/ ./
 deb http://repo.qwertyuiop1379.com/ ./
 deb http://repo.rio-doro.eu/ ./
-deb http://repo.sparkes.zone/ ./
 deb http://repo.spiritoflogic.com/ ./
-deb http://repo.tetherme.net/ ./
 deb http://tateu.net/repo/ ./
-deb http://xenpublic.incendo.ws/ ./
 deb https://0neday.github.io/cydia/ ./
 deb https://3omartech.github.io/ ./
 deb https://3xpl0itz.github.io/ ./
@@ -34,7 +23,6 @@ deb https://D7my-dev.github.io/repo/ ./
 deb https://DJHartley.github.io/ ./
 deb https://DirtyBeans.github.io/ ./
 deb https://LoganMD.github.io/repo/ ./
-deb https://MarcoIanne.github.io/ ./
 deb https://Smethan.github.io/repo/ ./
 deb https://TheRasPiGuy.github.io/ ./
 deb https://TurntTonsils.github.io/ ./
@@ -46,7 +34,7 @@ deb https://affimbr.github.io/repo/ ./
 deb https://agentepsilon.github.io/repo/ ./
 deb https://ahmadnagy.github.io/ ./
 deb https://akachronix.github.io/repo/ ./
-deb https://akeaswaran.github.io/repo/ ./
+deb https://akeaswaran.me/repo/ ./
 deb https://akebu.github.io/cydia/ ./
 deb https://alexpng.github.io/ ./
 deb https://aliencillo.github.io/repo/ ./
@@ -78,7 +66,6 @@ deb https://apt.securarepo.io/ ./
 deb https://apt.skylarmccauley.xyz/ ./
 deb https://apt.steverolfe.com/ ./
 deb https://apt.tinyapps.cn/ ./
-deb https://apt.touchsprite.com/ ./
 deb https://aquawu.github.io/igg/ ./
 deb https://arcetera.github.io/ ./
 deb https://arthurdapaz.github.io/ ./
@@ -101,7 +88,7 @@ deb https://bluetr00p.github.io/repo/ ./
 deb https://bornpollution.github.io/ ./
 deb https://botlove.github.io/ ./
 deb https://bqrichards.github.io/repo/ ./
-deb https://brianleek.github.io/repo/ ./
+deb https://brianleek.me/repo/ ./
 deb https://brunonfl.github.io/ ./
 deb https://brxxn.github.io/jailbreak-repo/ ./
 deb https://build.frida.re/ ./
@@ -111,7 +98,6 @@ deb https://bxnto.github.io/ ./
 deb https://c0ldra1n.github.io/repo/beta/ ./
 deb https://c1d3r.com/beta/ ./
 deb https://cammmpw.github.io/repo/ ./
-deb https://candoizo.gitlab.io/repo/ ./
 deb https://captainpoprocks.github.io/ ./
 deb https://captinc.me/ ./
 deb https://carbondevstudio.github.io/ ./
@@ -129,6 +115,7 @@ deb https://classicxiirepo.github.io/ ./
 deb https://clawish.github.io/repo/ ./
 deb https://codesquad-beta.github.io/cydia/ ./
 deb https://codeverine.gitlab.io/ ./
+deb https://codeymoore.github.io/repo/ ./
 deb https://cokepokes.github.io/ ./
 deb https://convergance.incendo.ws/ ./
 deb https://coolbooter.com/ ./
@@ -141,6 +128,7 @@ deb https://cydia.akemi.ai/webstack/ ./
 deb https://cydia.alexbeals.com/ ./
 deb https://cydia.ceadd.ca/ ./
 deb https://cydia.clezz.com/a/ ./
+deb https://cydia.dtathemes.com/repo/ ./
 deb https://cydia.easonwu.org/ ./
 deb https://cydia.fay.io/ ./
 deb https://cydia.hiraku.tw/ ./
@@ -200,6 +188,7 @@ deb https://getdelta.co/ ./
 deb https://getzbra.com/beta/ ./
 deb https://getzbra.com/repo/ ./
 deb https://gilesgc.github.io/repo/ ./
+deb https://gmoran.me/repo/ ./
 deb https://gstpsk.github.io/cydia/ ./
 deb https://h6nry.github.io/repo/ ./
 deb https://hacx.org/repo/ ./
@@ -260,6 +249,7 @@ deb https://jordao-net.com/repo/ ./
 deb https://jose905.github.io/ ./
 deb https://joshtv.net/repo/ ./
 deb https://julioverne.github.io/ ./
+deb https://junesiphone.com/supersecret/ ./
 deb https://kanam.me/repo/ ./
 deb https://karimo299.github.io/repo/ ./
 deb https://kdog0598.github.io/ ./
@@ -295,6 +285,7 @@ deb https://m3dn.github.io/m3/ ./
 deb https://machport.github.io/apt/ ./
 deb https://manolzrepo.github.io/ios/ ./
 deb https://marcgrey.github.io/ ./
+deb https://marcoIanne.github.io/ ./
 deb https://martinpham.gitlab.io/cydia/ ./
 deb https://martinszar.github.io/ ./
 deb https://maryel1.github.io/ ./
@@ -307,7 +298,6 @@ deb https://matthewpierson.github.io/ ./
 deb https://maxarmin.github.io/ ./
 deb https://mbo42.com/repo/ ./
 deb https://mcapollo.github.io/Public/ ./
-deb https://mdean808.github.io/repo/ ./
 deb https://megadevios.github.io/repo/ ./
 deb https://mehulrao.github.io/ ./
 deb https://menardiosdesigns.github.io/repo/ ./
@@ -332,9 +322,12 @@ deb https://nahum365.github.io/ ./
 deb https://nanerasingh.github.io/repo/ ./
 deb https://nathanaccidentally.github.io/ ./
 deb https://nathanwhit.github.io/repo/ ./
+deb https://ndoizo.ca/ ./
 deb https://nicho1asdev.github.io/repo/ ./
 deb https://nightsnowlin.github.io/repo/ ./
 deb https://nikostito.github.io/NtdarkDebs/ ./
+deb https://nitosoft.com/beta2/ ./
+deb https://nitosoft.com/repo/ ./
 deb https://nixuge.github.io/ ./
 deb https://noeliel.com/repo/ ./
 deb https://nothereforthedong.github.io/ ./
@@ -353,7 +346,7 @@ deb https://packetfahrer.github.io/ ./
 deb https://pancakeufo.github.io/repo/ ./
 deb https://paparajote.github.io/ ./
 deb https://parrotgeek.com/repo/ ./
-deb https://patrick-knauf.github.io/repo/ ./
+deb https://patrickknauf.com/repo/ ./
 deb https://perrycucko.github.io/ ./
 deb https://petitstrawberry.github.io/cydia/ ./
 deb https://pheuxdev.github.io/repo/ ./
@@ -397,6 +390,7 @@ deb https://repo.dongo.pro/ ./
 deb https://repo.dozenzb.com/ ./
 deb https://repo.dreamnet.at/ ./
 deb https://repo.eskimo.dev/ ./
+deb https://repo.evaneliasyoung.com/ ./
 deb https://repo.festival.tf/ ./
 deb https://repo.geopjr.xyz/ ./
 deb https://repo.hudsongreen.com/ ./
@@ -407,15 +401,19 @@ deb https://repo.litten.love/ ./
 deb https://repo.menushka.ca/ ./
 deb https://repo.michelbarnich.com/ ./
 deb https://repo.midnightchips.me/ ./
+deb https://repo.mogdan.xyz/ ./
 deb https://repo.nepeta.me/ ./
+deb https://repo.nesolabs.de/ ./
 deb https://repo.niceios.com/ ./
 deb https://repo.nickt.dev/ ./
 deb https://repo.nickt.dev/beta/ ./
+deb https://repo.nullpixel.uk/ ./
 deb https://repo.opendebs.com/ ./
 deb https://repo.orangebananaspy.com/ ./
 deb https://repo.oskar.wirga.com/ ./
 deb https://repo.p0358.net/ ./
 deb https://repo.paz.yt/ ./
+deb https://repo.pixelomer.com/ ./
 deb https://repo.quiprr.dev/ ./
 deb https://repo.rafferli.com/ ./
 deb https://repo.rbtdigital.com/ ./
@@ -425,8 +423,10 @@ deb https://repo.roemer.ml/ ./
 deb https://repo.samplasion.js.org/ ./
 deb https://repo.section9jb.com/ ./
 deb https://repo.shuga.co/ ./
+deb https://repo.sparkes.zone/ ./
 deb https://repo.squidkingdom.com/ ./
 deb https://repo.supercharge.app/ ./
+deb https://repo.tetherme.net/ ./
 deb https://repo.theodyssey.dev/libhooker-beta/ ./
 deb https://repo.thireus.com/ ./
 deb https://repo.tihmstar.net/ ./
@@ -441,7 +441,7 @@ deb https://repo.yobur.xyz/ ./
 deb https://repo90.github.io/ios/ ./
 deb https://repotest.shuga.co/ ./
 deb https://revulate.dev/ ./
-deb https://ridn.github.io/repo/ ./
+deb https://ridn.me/repo/ ./
 deb https://rikumi.github.io/repo/ ./
 deb https://rishanan.github.io/ ./
 deb https://rival-dev.github.io/ ./
@@ -454,6 +454,7 @@ deb https://rpetri.ch/repo/ ./
 deb https://rrnmrnm.github.io/ ./
 deb https://rudikelly.github.io/repo/ ./
 deb https://ruler225.github.io/ ./
+deb https://ryleyangus.com/repo/ ./
 deb https://s0mecoder.github.io/repo/ ./
 deb https://s1ris.github.io/repo/ ./
 deb https://saj0vie.github.io/ ./
@@ -469,7 +470,7 @@ deb https://seriousm4x.github.io/repo/ ./
 deb https://shade-zepheri.github.io/ ./
 deb https://shadowstonk1.github.io/repo/ ./
 deb https://shaundegr8.github.io/ ./
-deb https://shepgoba.github.io/ ./
+deb https://shepgobarepo.github.io/ ./
 deb https://shiftcmdk.github.io/repo/ ./
 deb https://shinvou.org/repo/ ./
 deb https://simalary.github.io/beta/ ./
@@ -529,7 +530,7 @@ deb https://uroboro.github.io/repo/ ./
 deb https://useignition.github.io/BeMyGuest/ ./
 deb https://usrlightmann.github.io/ ./
 deb https://vanishingtacos.github.io/ ./
-deb https://virenmohindra.github.io/ ./
+deb https://virenmohindra.me/ ./
 deb https://vision-4.github.io/repo/ ./
 deb https://vxbakerxv.github.io/repo/ ./
 deb https://wavelinkstudios.github.io/repo/ ./
@@ -541,7 +542,6 @@ deb https://wiety.github.io/cydia/ ./
 deb https://williammuff.github.io/repo/ ./
 deb https://wizage.github.io/repo/ ./
 deb https://wolfposd.github.io/ ./
-deb https://wolftonix.com/cydia/ ./
 deb https://worksbybbs.github.io/ ./
 deb https://www.harrisonapps.com/repo/ ./
 deb https://www.icaughtuapp.com/repo/ ./
@@ -551,6 +551,7 @@ deb https://www.yourepo.com/ ./
 deb https://wynd07.appspot.com/r7/ ./
 deb https://wz1129.github.io/cydia/ ./
 deb https://xavitec.github.io/ ./
+deb https://xenpublic.incendo.ws/ ./
 deb https://xmb5.github.io/cydia/ ./
 deb https://xtm3x.github.io/repo/ ./
 deb https://xxthepersonx.github.io/repo/ ./
