@@ -66,6 +66,7 @@ deb https://apt.securarepo.io/ ./
 deb https://apt.skylarmccauley.xyz/ ./
 deb https://apt.steverolfe.com/ ./
 deb https://apt.tinyapps.cn/ ./
+deb https://apt.touchsprite.com/ ./
 deb https://aquawu.github.io/igg/ ./
 deb https://arcetera.github.io/ ./
 deb https://arthurdapaz.github.io/ ./
@@ -542,13 +543,14 @@ deb https://wiety.github.io/cydia/ ./
 deb https://williammuff.github.io/repo/ ./
 deb https://wizage.github.io/repo/ ./
 deb https://wolfposd.github.io/ ./
+deb https://wolftonix.com/cydia/ ./
 deb https://worksbybbs.github.io/ ./
 deb https://www.harrisonapps.com/repo/ ./
 deb https://www.icaughtuapp.com/repo/ ./
 deb https://www.sebastianoriva.it/repo/ ./
 deb https://www.stevesarmiento.com/repo/ ./
 deb https://www.yourepo.com/ ./
-deb https://wynd07.appspot.com/r7/ ./
+deb https://wynd07.com/r7/ ./
 deb https://wz1129.github.io/cydia/ ./
 deb https://xavitec.github.io/ ./
 deb https://xenpublic.incendo.ws/ ./
